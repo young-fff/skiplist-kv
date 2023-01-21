@@ -9,7 +9,6 @@
 * makefile 编译脚本
 * store 数据落盘的文件存放在这个文件夹 
 * stress_test_start.sh 压力测试脚本
-* LICENSE 使用协议
 
 # 提供接口
 
@@ -52,7 +51,7 @@
 每秒可处理读请求数（QPS）: 18.41w
 
 
-可以运行如下脚本测试kv存储引擎的性能（当然你可以根据自己的需求进行修改）
+可以运行如下脚本测试kv存储引擎的性能
 
 ```
 sh stress_test_start.sh 
